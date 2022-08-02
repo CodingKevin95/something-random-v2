@@ -1,16 +1,15 @@
 import React, { useState } from "react"
 import { Box, Paper, Stack, Item } from "@mui/material"
 import "./linfeng.css"
-import AppBar from "@mui/material/AppBar"
 
-import Toolbar from "@mui/material/Toolbar"
 import Typography from "@mui/material/Typography"
-import IconButton from "@mui/material/IconButton"
-import MenuIcon from "@mui/icons-material/Menu"
+
 import { styled } from "@mui/material/styles"
 import LunchDiningIcon from "@mui/icons-material/LunchDining"
 import NightlifeIcon from "@mui/icons-material/Nightlife"
 import TerminalIcon from "@mui/icons-material/Terminal"
+import { Helmet } from "react-helmet"
+// import Loading from "../Loading/Loading"
 
 export default function Linfeng() {
   const Item = styled(Paper)(({ theme }) => ({
@@ -23,24 +22,18 @@ export default function Linfeng() {
 
   return (
     <>
+      <div className="body">
+        <Helmet>
+          <style>{"body { background-color: #edf2f7; }"}</style>
+        </Helmet>
+        <Typography variant="h1" component="h1">
+          👋Linfeng Chen👋
+        </Typography>
+        <Typography variant="h2" component="h1">
+          Title: Software Engineer
+        </Typography>
+      </div>
       <div>
-        <Box sx={{ flexGrow: 1 }}>
-          <AppBar position="static">
-            <Toolbar variant="dense">
-              <IconButton
-                edge="start"
-                color="inherit"
-                aria-label="menu"
-                sx={{ mr: 2 }}
-              >
-                <MenuIcon />
-              </IconButton>
-              <Typography variant="h6" color="inherit" component="div">
-                Linfeng's page
-              </Typography>
-            </Toolbar>
-          </AppBar>
-        </Box>
         <div style={{ display: "flex", flexdirection: "row" }}>
           <div className="content">
             <Typography variant="h2" component="h2">

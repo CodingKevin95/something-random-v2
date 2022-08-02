@@ -34,7 +34,7 @@ export default function Linfeng() {
         </Typography>
       </div>
       <div>
-        <div style={{ display: "flex", flexdirection: "row" }}>
+        <div style={{ display: "flex", justifyContent: "center" }}>
           <div className="content">
             <Typography variant="h2" component="h2">
               Coding <TerminalIcon fontSize="large" />

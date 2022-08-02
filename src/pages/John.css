@@ -1,0 +1,65 @@
+.JohnContainer{
+    margin:auto;
+    height: 80%;
+    width: 80%;
+}
+
+.Container{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 5px;
+    border: 5px;
+    border-style: solid;
+}
+
+.TitleContainer{
+    display:flex;
+    align-items: center;
+    margin: 5px;
+    border: 5px;
+    border-style: solid;
+}
+
+.Favorites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    border: 5px;
+    border-style: solid;
+    padding: 10px;
+}
+.FavoritesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    border: 5px;
+    border-style: solid;
+}
+
+.fav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    
+    height: 350px;
+    width: 350px;
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+body{
+    background-color: grey;
+}
+
+button{
+    width: 150px;
+    height: 50px; 
+    border-radius: 20px;
+    background-color: red;
+}

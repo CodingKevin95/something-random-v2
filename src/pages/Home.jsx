@@ -7,6 +7,8 @@ import '../stylingpage/Home.css'
 function Home () {
     return (
         <div className='group'>
+            <h1 className='title'>Welcome to our page!</h1>
+            <h2 className='subTitle'>We're excited to have you here</h2>
             <div className='box'>
                 <img className='pic' src = {john} alt="john"/>
                 <img className='pic' src = {lin} alt="lin"/>

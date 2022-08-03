@@ -5,6 +5,7 @@ import Linfeng from "./pages/Linfeng"
 import Kevin from "./pages/Kevin"
 import John from "./pages/John";
 import Navigation from "./components/Navigation";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navigation />
 
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/linfeng" element={<Linfeng />} />
         <Route path="/dominik" element={<Dominik />} />
         <Route path="/kevin" element={<Kevin />} />

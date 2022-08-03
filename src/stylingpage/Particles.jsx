@@ -50,10 +50,10 @@ return (
         },
         particles: {
             color: {
-                value: "#ffffff",
+                value: "#4c4c4c",
             },
             links: {
-                color: "#ffffff",
+                color: "#4c4c4c",
                 distance: 150,
                 enable: true,
                 opacity: 0.5,
@@ -69,7 +69,7 @@ return (
                     default: "bounce",
                 },
                 random: false,
-                speed: 2,
+                speed: 1,
                 straight: false,
             },
             number: {
